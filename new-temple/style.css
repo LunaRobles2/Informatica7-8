@@ -4,7 +4,7 @@ h1{
     color: saddlebrown;
 }
 
-/* ID Selector */
+/* ID Selector (unique) */
 
 #status {
     font-family: sans-serif;
@@ -13,8 +13,15 @@ img{
     width: 500px;
 }
 
-/* Class Selector */
+/* Class Selector (reusable) */
 .standout-box {
     background-color: whitesmoke;
-    border-radious: 1rem
+    border-radius: 1rem
+}
+
+.subtitle{
+    text-transform: uppercase;
+    color: saddlebrown;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
