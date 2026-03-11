@@ -1,3 +1,10 @@
+main{width: 600px; margin: auto;}
+
+*{
+    color: #282828;
+font-family: sans-serif;
+}
+
 /* Element Selector */
 h1{
     text-transform: uppercase;
@@ -8,6 +15,7 @@ h1{
 
 #status {
     font-family: sans-serif;
+    color: saddle brown;
 }
 img{
     width: 500px;
@@ -15,6 +23,7 @@ img{
 
 /* Class Selector (reusable) */
 .standout-box {
+    padding: 1.5rem;
     background-color: whitesmoke;
     border-radius: 1rem
 }
@@ -25,3 +34,13 @@ img{
     font-size: 1.2rem;
     font-weight: bold;
 }
+
+/*group*/
+h1, .subtitle {font-family: serif;}
+
+a{text-decoration:none;
+color:rgb(163, 157, 111);}
+
+a:hover{text-decoration: underline}
+
+.space {padding-bottom: 1.5rem;}
