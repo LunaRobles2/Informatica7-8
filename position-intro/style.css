@@ -1,0 +1,18 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #fafafa;
+}
+
+header{
+    position: fixed;
+    top:0;
+    width:100%;
+    background-color: #DCEDC8;
+    border-bottom: 1px solid #C5E1A5;
+    text-align: center;
+}
+
+main{
+    width: 500px;
+}
