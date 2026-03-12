@@ -11,8 +11,40 @@ header{
     background-color: #DCEDC8;
     border-bottom: 1px solid #C5E1A5;
     text-align: center;
+    z-index:99999;
 }
 
 main{
     width: 500px;
+    margin: 100PX auto 0;
+}
+
+.post{
+    position: static; /*does nothing*/
+    backround-color: white;
+    border: 1px solid #bdbdbd;
+    margin-bottom:30px;
+}
+
+.image-container {
+    position:relative;
+    width: 100%;
+    height: 500px;
+}
+
+.post-media {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.live-badge {
+    position:absolute;
+    top: 80px;
+    left:10px;
+    background-color: red;
+    color: white;
+    padding: 2px 8px;
+    font-weight: bold;
+    border-radious: 3px;
 }
