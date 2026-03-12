@@ -1,0 +1,85 @@
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "menu content"
+    "footer footer";
+  grid-template-columns: 1.5fr 3fr;
+  gap: 3px;
+  background-color: dodgerblue;
+  padding: 5px;
+}
+.container div {
+  background-color: white;
+  padding: 10px;
+}
+.container div.header {
+  grid-area: header;
+  text-align: center;
+}
+.container div.menu {
+  text-align: right
+  
+}
+
+
+
+
+.container div.content {
+  grid-area: content;
+}
+
+    main{width: 600px; margin: left; }
+
+    *{
+        color: #282828;
+    font-family: sans-serif;
+    }
+
+    /* Element Selector */
+    h1{
+        text-transform: uppercase;
+        color: saddlebrown;
+    }
+
+    /* ID Selector (unique) */
+
+    #status {
+        font-family: sans-serif;
+        color: saddle brown;
+    }
+    img{
+        width: 500px;
+    }
+
+    /* Class Selector (reusable) */
+    .standout-box {
+        padding: 1.5rem;
+        background-color: whitesmoke;
+        border-radius: 1rem
+    }
+
+    .subtitle{
+        text-transform: uppercase;
+        color: saddlebrown;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    /*group*/
+    h1, .subtitle {font-family: serif;}
+
+    a{text-decoration:none;
+    color:rgb(163, 157, 111);}
+
+    a:hover{text-decoration: underline}
+
+    .space {padding-bottom: 1.5rem;}
+
+
+
+
+.container div.footer {
+  grid-area: footer;
+  text-align: center;
+}
