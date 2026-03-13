@@ -2,6 +2,7 @@ body{
     font-family: sans-serif;
     margin: 0;
     background-color: #fafafa;
+    height: 4000px;
 }
 
 header{
@@ -17,6 +18,8 @@ header{
 main{
     width: 500px;
     margin: 100PX auto 0;
+    position: relative;
+    height: 100%;
 }
 
 .post{
@@ -40,11 +43,27 @@ main{
 
 .live-badge {
     position:absolute;
-    top: 80px;
+    top: 10px;
     left:10px;
     background-color: red;
     color: white;
     padding: 2px 8px;
     font-weight: bold;
-    border-radious: 3px;
+    border-radius: 3px;
+}
+
+.post-description{
+    padding: 1rem;
+}
+
+.user{
+    font-weight: bold;
+}
+
+.ad{
+    background-color: lightblue;
+    padding: 1rem;
+    position: sticky;
+    top: 100px;
+    height: 200px;
 }
