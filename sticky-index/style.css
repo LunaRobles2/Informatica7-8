@@ -1,0 +1,31 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #fafafa;
+    height: 4000px;
+}
+
+header{
+    position: fixed;
+    top:0;
+    width:100%;
+    background-color: #DCEDC8;
+    border-bottom: 1px solid #C5E1A5;
+    text-align: center;
+    z-index:99999;
+}
+
+main{
+    width: 500px;
+    margin: 100PX auto 0;
+    position: relative;
+    height: 100%;
+}
+
+
+.ad{
+    background-color: lightblue;
+    padding: 1rem;
+    position: sticky;
+    top: 100px;
+}
