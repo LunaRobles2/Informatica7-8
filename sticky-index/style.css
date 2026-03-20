@@ -9,7 +9,7 @@ header{
     position: fixed;
     top:0;
     width:100%;
-    background-color: #DCEDC8;
+    background-color: blue;
     border-bottom: 1px solid #C5E1A5;
     text-align: center;
     z-index:99999;
@@ -23,7 +23,7 @@ main{
 }
 
 
-.ad{
+.luna{
     background-color: lightblue;
     padding: 1rem;
     position: sticky;
