@@ -24,7 +24,7 @@ header{
 
 #header1{
     font-size:60px;
-    background-color:#00008B;
+    background-color:#512475;
     color:white;
 }
 
@@ -47,7 +47,7 @@ header{
     margin-right: 400px;
 }
 h2{
-    color: #00008B;
+    color: #512475;
 }
 h5{
     font-family: sans-serif;
@@ -62,6 +62,9 @@ p{
     padding: 3rem;
     display:flex;
     justify-content: center;
+}
+.list {
+    text-align: left;
 }
 
 .box{
