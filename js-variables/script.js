@@ -1,37 +1,33 @@
-// function greet(name){
-//     console.log("Hello "+name);
-// }
-
-// greet("Luna");
-
-// function addNumbers(num1, num2) {
-//     let sum = num1 + num2;
-//     alert("sum is equal to " +sum);
-// }
-
-//addNumbers(6,7)
-
 
 function function1(){
-    const Name = "Luna";
-    const Color = "Blue";
-    let Location = "Colonia Juarez";
+    const name = "Luna";
+    const color = "Blue";
+    let location = "Colonia Juarez";
     let mood = "Worry";
+    console.log(name);
+    console.log(color);
+    console.log(location);
+    console.log(mood);
 }
-console.log(function1)
+
+
 
 function function2(){
-
-companyName = "Studio Ghibli Inc.";
-foundingYear = "1985"
-isActive = a Boolean.
-fundingAmount = undefined.
+    companyName = "Studio Ghibli Inc.";
+    foundingYear = "1985";
+    isActive = "True";
+    fundingAmount = "06/15/1985";
+    console.log(companyName);
+    console.log(foundingYear);
+    console.log(isActive);
+    console.log(fundingAmount);
 }
-console.log()`.
-// function article2(){
-//     alert("We believe that men will be punished for their own sins, and not for Adam’s transgression.");
-// }
-// function article3(){
-//     alert("We believe that through the Atonement of Christ, all mankind may be saved, by obedience to the laws and ordinances of the Gospel.");
-// }
 
+function function3(){
+    number = 4;
+    let multi = number*2;
+    number = number+10;
+    number = number/2;
+    alert("The variable value should be" +number);
+
+}
