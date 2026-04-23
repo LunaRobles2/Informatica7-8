@@ -1,0 +1,21 @@
+header{
+    position: fixed;
+    top:0;
+    width:100%;
+    background-color: #ADD8E6;
+    border-bottom: 1px solid #000080;
+    text-align: center;
+    z-index:99999;
+}
+
+main{
+    width: 500px;
+    margin: 100PX auto 0;
+    position: relative;
+    height: 100%;
+}
+
+h3{
+    color:#90D5ff;
+    text-align:center;
+}
