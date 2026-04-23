@@ -1,0 +1,23 @@
+  header{
+    position: sticky;
+    top:0;
+    width:100%;
+    background-color: #ADD8E6 ;
+    border-bottom: 1px solid #A7C7E7;
+    text-align: center;
+  }
+
+  body{
+    font-family: sans-serif;
+    margin: 4;
+    background-color: #000000;
+    text-align: center;
+}
+
+button{
+    height: 400px;
+    width: 400px;
+    top:80;
+    margin: 60;
+    background-color: #cc9fed ;
+}

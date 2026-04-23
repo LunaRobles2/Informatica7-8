@@ -24,10 +24,10 @@ function function2(){
 }
 
 function function3(){
-    number = 4;
-    let multi = number*2;
+    let number = 4;
+    number = number*2;
     number = number+10;
     number = number/2;
-    alert("The variable value should be" +number);
+    alert("The variable value should be "+number);
 
 }
