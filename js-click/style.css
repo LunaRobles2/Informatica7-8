@@ -9,12 +9,14 @@
 
   body{
     font-family: sans-serif;
-    margin: 4;
     background-color: #000000;
     text-align: center;
 }
+p{
+    color:#ffffff;
+}
 
-button{
+  button{
     height: 400px;
     width: 400px;
     top:80;

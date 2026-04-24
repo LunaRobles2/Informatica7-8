@@ -14,8 +14,28 @@ main{
     position: relative;
     height: 100%;
 }
+h1{
+    color:#478296;
+}
 
 h3{
-    color:#90D5ff;
+    color:#478296;
     text-align:center;
+}
+button{
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+    margin-rigth: 20px;
+    background-color: #ADD8E6 ;
+}
+
+.box{
+    text-align: center;
+    align: center;
+}
+
+.boxx{
+    text-align: center;
+    align: center;
 }

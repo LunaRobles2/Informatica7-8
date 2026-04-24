@@ -1,0 +1,33 @@
+header{
+    position: static;
+    top:0;
+    width:100%;
+    background-color: #629647;
+    border-bottom: 1px solid #000080;
+    text-align: center;
+    z-index:99999;
+}
+
+p{
+    margin-top: 50px;
+    text-align: center;
+
+}
+h1{
+    color:#234e0e;
+}
+
+button{
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+    margin-rigth: 20px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background-color: #629647 ;
+}
+
+.box{
+    text-align: center;
+    align: center;
+}
