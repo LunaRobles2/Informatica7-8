@@ -1,0 +1,45 @@
+  header{
+    position: sticky;
+    top:0;
+    width:100%;
+    background-color: #e0d460 ;
+    border-bottom: 1px solid #c9bd47;
+    text-align: center;
+  }
+
+  body{
+    font-family: sans-serif;
+    background-color: #faf7dc;
+    text-align: center;
+    justify-content: center;
+  }
+
+  figure{
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    background-color: #e0d460 ;
+    border-radius: 50%;
+    border: 30px solid #c9bd47;
+  }
+
+h2 {
+  font-size: 50px;
+}
+h3 {
+  font-size: 50px;
+}
+h4 {
+  font-size: 100px;
+}
+button{
+  height: 200px;
+  width: 200px;
+
+}
+
+/* button:hover {
+  background-color: blue;
+} */
