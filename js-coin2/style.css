@@ -37,9 +37,12 @@ h4 {
 button{
   height: 200px;
   width: 200px;
+  background-color: #e0d460 ;
+}
+button:hover {
+background-color: #faf7dc;
+
 
 }
 
-/* button:hover {
-  background-color: blue;
-} */
+
