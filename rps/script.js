@@ -3,7 +3,7 @@ function rock() {
     let text = document.querySelector("h4");
     let result = document.querySelector("h5");
     let you = document.querySelector("h6");
-    you.innerHTML = "Your Choice is...Rock";
+    you.innerHTML = "Your Choice is...Rock👊";
 
 if (random < 0.57){
     text.innerHTML = "Congratulations, You Won!!!";
@@ -25,7 +25,7 @@ function paper() {
     let text = document.querySelector("h4");
     let result = document.querySelector("h5");
     let you = document.querySelector("h6");
-    you.innerHTML = "Your Choice is...Paper";
+    you.innerHTML = "Your Choice is...Paper🤚";
 
 if (random < 0.5){
     text.innerHTML = "Congratulations, You Won!!!";
@@ -47,7 +47,7 @@ function scissors() {
     let text = document.querySelector("h4");
     let result = document.querySelector("h5");
     let you = document.querySelector("h6");
-    you.innerHTML = "Your Choice is...Scissors";
+    you.innerHTML = "Your Choice is...Scissors✌️";
 
 if (random < 0.30){
     text.innerHTML = "Congratulations, You Won!!!";
