@@ -12,7 +12,20 @@ main{
     margin: 100PX auto 0;
     position: relative;
     height: 100%;
+    justify-content: center;
 }
+
+body{
+    background-color: #f5fcff;
+    justify-content: center;
+}
+
+table{
+    background-color: white;
+    position: center;
+    align: center;
+}
+
 h1{
     color:color:#FFCC33;
 }
