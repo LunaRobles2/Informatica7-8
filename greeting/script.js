@@ -20,7 +20,12 @@ document.addEventListener("DOMContentLoaded", function(){
 //////////////////////////////////////////////////////////////////////////////////
 
     let day = now.getDay();
-    console.log(day);
+    if (day < 5)
+        { document.querySelector("#day").innerHTML = "Not Friday, yet!"; }
+    else if (day == 5)
+        { document.querySelector("#day").innerHTML = "Finally Fridaaaaaay! 🕺"; }
+    else
+        { document.querySelector("day").innerHTML = "Just enjoy your weekend 🙌"; }
 
 //////////////////////////////////////////////////////////////////////////////////
 
