@@ -1,10 +1,22 @@
 .instrument {
-    height: 90px;
-    width: 70px;
+    height: 200px;
+    width: 150px;
     background-color:whitesmoke;
     border-radius: 30%;
     border: 3px solid #c3e7fa;
     text-align: center;
+    margin: 10px;
+}
+h1 {
+    color:whitesmoke;
+    text-align: center;
+    font-size:100px;
+}
+h2 {
+    font-size:40px;
+}
+p {
+    font-size:30px;
 }
 
 .active {
@@ -16,6 +28,10 @@ body{
 
 }
 #center {
+    display:flex;
+    justify-content: center;
+}
+#vertical {
     display:flex;
     justify-content: center;
 }
