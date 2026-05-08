@@ -1,0 +1,21 @@
+.instrument {
+    height: 90px;
+    width: 70px;
+    background-color:whitesmoke;
+    border-radius: 30%;
+    border: 3px solid #c3e7fa;
+    text-align: center;
+}
+
+.active {
+    background-color:black;
+    color: white;
+}
+body{
+    background-color:black;
+
+}
+#center {
+    display:flex;
+    justify-content: center;
+}
