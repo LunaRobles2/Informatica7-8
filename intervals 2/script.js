@@ -1,6 +1,8 @@
-let time = 60;
+let time = choose;
 let alarm = new Audio("alarm.mp3");
 
+if 
+choose =
 
 
 function count() {
