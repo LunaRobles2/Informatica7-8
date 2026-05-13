@@ -10,13 +10,13 @@ h1 {
     color:#ffbfb8;
     font-family: Verdana;
     text-align: center;
-    font-size:200px;
+    font-size:150px;
     margin: 0px;
     margin-top: 45px;
 }
 div {
     height: 380px;
-    width: 500px;
+    width: 700px;
     background-color:#ffeeb0;
     border-radius: 10%;
     border: 3px solid #fffae8;
