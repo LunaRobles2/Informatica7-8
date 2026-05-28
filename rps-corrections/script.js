@@ -7,4 +7,4 @@ function game(userChoice) {
     else if (random < 1) {compChoice = "Scissors";}
 
     let result = document.querySelector ("#result");
-    if (userChoice == compChoice) { result.html = "Tie"}
+    if (userChoice == compChoice) { result.html = "Tie"

@@ -11,11 +11,24 @@ p {
 }
 
 body{
+  h1 {
+    color:whitesmoke;
+
+    font-size:100px;
+}
+h2 {
+    font-size:40px;
+}
+p {
+    font-size:30px;
+}
+
+body{
     background-color:black;text-align: center;margin: 10px;
 
 }
 #cube {
-    
+
 }
 #vertical {
     display:flex;
